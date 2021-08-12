@@ -1,0 +1,43 @@
+# PROJECT ROOT
+# Thanks to: https://gist.github.com/jdbartlett/444295
+
+# Ignore everything in the root except the
+# "wp-content" directory and config files.
+/*
+!assets
+!inc
+!core-init.php
+!umtale-seo.php
+
+
+# we need this file and readme
+!.gitignore
+!README.md
+
+# composer packages and config
+!composer.json
+!composer.lock
+
+# Icon must end with two \r
+Icon
+
+
+# project' and OS' junk
+.AppleDB
+.AppleDesktop
+.DS_Store
+.AppleDouble
+.LSOverride
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+.DS_Store
+.sass-cache
+.directory
+.Trash-*
+npm-debug*
+node_modules
+bower_components
+
+# Ignore every .log file
+*.log

@@ -1,0 +1,7 @@
+{
+    "name": "umtalelab/seo",
+    "type": "project",
+    "require": {
+        "htmlburger/carbon-fields": "^3.1"
+    }
+}
